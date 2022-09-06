@@ -5,7 +5,7 @@
 }
 .cards-wrapper {
   width: 360px;
-  border-radius: 12px;
+  border-radius: 16px;
 }
 .circle {
   width: 3em;
@@ -104,10 +104,4 @@
   background-color: #00a542;
   font-size: 1.4em;
   border-radius: 50%;
-}
-
-@media only screen and (max-width: 500px) {
-  .cards-wrapper {
-    width: 360px;
-  }
 }
