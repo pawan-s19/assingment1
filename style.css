@@ -1,0 +1,107 @@
+.main {
+  height: 100vh;
+  width: 100vw;
+  background-color: whitesmoke;
+}
+.cards-wrapper {
+  width: 360px;
+  border-radius: 12px;
+}
+.circle {
+  width: 48px;
+  height: 48px;
+  background-color: #c2e8c9;
+  border-radius: 50%;
+}
+.section {
+  padding: 14px 24px 14px 14px;
+}
+.section:not(:last-child) {
+  border-bottom: 1px solid #e4e7ec;
+}
+.section h4 {
+  margin-left: 14px;
+}
+.section span {
+  font-size: 1em;
+  color: #98a2b3;
+}
+.section h6 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #667085;
+}
+
+.section p {
+  color: #101828;
+  font-size: 14px;
+}
+.section .section-details {
+  margin-left: 1vw;
+  margin-top: -0.5vh;
+}
+.detail-right-copy-icon {
+  color: #667085;
+  font-size: 1.2em;
+}
+.detail-right-copy-icon span {
+  transition: all cubic-bezier(0.19, 1, 0.22, 1);
+}
+.detail-right-copy-icon span:hover {
+  cursor: pointer;
+}
+.smaller-circle {
+  height: 36px;
+  width: 36px;
+  background-color: #c2e8c9;
+  border-radius: 50%;
+}
+.section h5 {
+  font-size: 16px;
+}
+.card {
+  border: none;
+  background-color: white;
+}
+.card:nth-child(1) {
+  margin-bottom: 2vh;
+}
+
+.detail-right-success {
+  width: 102px;
+  height: 28px;
+  border-radius: 16px;
+  background-color: #ecfdf3;
+  color: #027a48;
+  font-size: 14px;
+}
+
+.dot {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  margin-right: 9px;
+}
+.dot-operative {
+  background-color: #12b76a;
+}
+.dot-inoperative {
+  background-color: #f04438;
+}
+.operative {
+  background-color: #ecfdf3;
+  color: #027a48;
+}
+.inoperative {
+  background-color: #fef3f2;
+  color: #b42318;
+}
+#inner-span {
+  color: #00a542;
+  font-size: 2em;
+}
+#inner-span2 {
+  background-color: #00a542;
+  font-size: 1.4em;
+  border-radius: 50%;
+}
