@@ -8,8 +8,8 @@
   border-radius: 12px;
 }
 .circle {
-  width: 48px;
-  height: 48px;
+  width: 3em;
+  height: 3em;
   background-color: #c2e8c9;
   border-radius: 50%;
 }
@@ -104,4 +104,11 @@
   background-color: #00a542;
   font-size: 1.4em;
   border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .cards-wrapper {
+    width: 340px;
+    height: fit-content;
+  }
 }
