@@ -108,7 +108,7 @@
 
 @media only screen and (max-width: 600px) {
   .cards-wrapper {
-    width: 340px;
+    width: 280px;
     height: fit-content;
   }
 }
